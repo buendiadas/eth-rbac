@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    image: buendiadas/eth-rbac:latest
+    environment:
+      ETH_RBAC_DB_HOST: username
+      ETH_RBAC_DB_PASSWORD: securepassword
+      ETH_RBAC_DB_NAME: db_name
+      ETH_RBAC_DB_PORT: 5432
+      ETH_RBAC_SECRET: secret
