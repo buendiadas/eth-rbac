@@ -13,6 +13,12 @@ type User struct {
 	Role    string `json:"role"`
 }
 
+func SignIn(address string, sig string) {
+	// ValidateSig
+	// Store jwt
+
+}
+
 // Given an address, returns a user.
 func GetUserByAddress(address string) (user User, err error) {
 	err = DB.First(&user, "account = ?", strings.ToLower(address)).Error

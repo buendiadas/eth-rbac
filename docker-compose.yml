@@ -8,3 +8,5 @@ services:
       ETH_RBAC_DB_NAME: db_name
       ETH_RBAC_DB_PORT: 5432
       ETH_RBAC_SECRET: secret
+      JWT_SECRET: 
+      SALT_ETH_TEXT: "Sign into as 0x2db59226316905ae6e00fA795a5990D44AF30F13 to Frontier backend services. By signing that you accept our terms and conditions and you understand that Frontier and all the related entities have no responsibilities on your private key, your eth, or your tokens."
