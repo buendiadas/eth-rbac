@@ -1,6 +1,13 @@
 # ETH RBAC
 
-[WIP] Middle service to manage server access permissions (RBAC) using your inmutable Smart Contract registry
+Use an Ethereum Account to manage access permissions (RBAC) using an Smart Contract registry.
+
+Any user with an Ethereum account can sign a message. If the user has been accepted in a Registry Smart Contract, the service will send a `JWT`, which can be used to manage access to traditional web resources. 
+
+### How it works
+
+![Architecture](https://i.ibb.co/rx1cCr4/Eth-Rbac.png)
+
 
 ### Install Steps
 
