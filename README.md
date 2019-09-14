@@ -4,6 +4,8 @@ Use an Ethereum Account to manage access permissions (RBAC) using an Smart Contr
 
 Any user with an Ethereum account can sign a message. If the user has been accepted in a Registry Smart Contract, the service will send a `JWT`, which can be used to manage access to traditional web resources. 
 
+Use cases: SAAS services, where a user pays with a token (DAI, ETH), and authenticates with Ethereum public Key.
+
 ### How it works
 
 ![Architecture](https://i.ibb.co/rx1cCr4/Eth-Rbac.png)
